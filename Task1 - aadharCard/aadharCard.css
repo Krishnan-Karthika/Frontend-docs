@@ -1,0 +1,55 @@
+.container{
+    border: black 5px solid;
+    width: 12.7cm;
+    height: 7cm;
+}
+
+.column{display: inline-block;}
+.row{display: inline;}
+
+.img_LionCapital{
+    height: 2cm;
+    margin-left: .8cm;
+}
+
+.img_Flag{
+    width: 10cm;
+    position: absolute;
+    margin-left: -0.7cm;
+    margin-top: -8px;
+    height: 2cm;
+}
+
+.img_Photo{
+    height: 3cm;
+    width: 3cm;
+    margin-left: 4px;
+    margin-top: .4cm;
+    margin-right: 6px;
+}
+
+.img_QR{
+    height: 3cm;
+    width: 3cm;
+    margin-right: -9em;
+    margin-top: -9em;
+    float: right;
+}
+
+.p_info{margin-top: 2cm;}
+
+.p_AadharNo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.p_Caption{
+    font-weight: bold;
+    font-size: 1.35rem;
+    text-align: center;
+    border-top: #e51919 5px solid;
+    margin-top: -0.5cm;
+    padding: 6px;
+}
+
+.p_Caption1{color: #e51919;}
