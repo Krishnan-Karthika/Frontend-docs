@@ -16,6 +16,7 @@
         table{
             text-align: center;
             border-collapse: collapse;
+            width: 100%;
         }
         th,td{
             padding: 15px;
@@ -41,8 +42,10 @@
             border-left: 2px solid black;  
             border-right: 2px solid black; 
         }
+        #first_cell{
+            background-color: #D0D0D0;
+        }
 
-        
     </style>
 </head>
 <body>
@@ -51,7 +54,7 @@
         <table>
             <caption>Data about the planets of our solar system (Planetary facts taken from <a href="#">Nasa's Planetary Fact Sheet - Metric</a>)</caption>
             <tr>
-                <td colspan="2"></td>
+                <td colspan="2" id="first_cell"></td>
                 <th id="cellBorderT">Name</th>
                 <th>Mass <br>(10 <sup>24</sup> kg)</th>
                 <th>Diameter<br>(km)</th>
