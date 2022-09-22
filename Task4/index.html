@@ -7,30 +7,35 @@
     <style>
       body {
         background: #ccc;
-        /* font-family: "Roboto", sans-serif; */
-        /* font-family:Georgia, 'Times New Roman', Times, serif */
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
       }
       .container {
         display: flex;
         flex-wrap: wrap;
-        width: 600px;
+        width: 600px;        
       }
+
       .container input[type="radio"] {
         display: none;
       }
+      
       .container label {
-        padding: 25px;
+        height: 1.2cm;
+        width: 2cm;
         background: #e2e2e2;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
       }
 
       .container .tab {
         width: 100%;
-        padding: 20px;
         background: #fff;
         order: 1;
         display: none;
+        border-left: .8cm solid #fff;
       }
+
       .container .tab h2 {
         font-size: 2em;
       }
