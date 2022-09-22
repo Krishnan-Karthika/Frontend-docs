@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <style>
+      body {
+        background: #ccc;
+        /* font-family: "Roboto", sans-serif; */
+        /* font-family:Georgia, 'Times New Roman', Times, serif */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+      }
+      .container input[type="radio"] {
+        display: none;
+      }
+      .container label {
+        padding: 25px;
+        background: #e2e2e2;
+      }
+
+      .container .tab {
+        width: 100%;
+        padding: 20px;
+        background: #fff;
+        order: 1;
+        display: none;
+      }
+      .container .tab h2 {
+        font-size: 2em;
+      }
+
+      .container input[type="radio"]:checked + label + .tab {
+        display: block;
+      }
+
+      .container input[type="radio"]:checked + label {
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <input type="radio" id="tabFirst" name="container" checked="checked" />
+      <label for="tabFirst">First</label>
+      <div class="tab">
+        <h2>First</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Optio, nobis culpa rem, vitae earum aliquid.</p>
+      </div>
+
+      <input type="radio" id="tabSecond" name="container" />
+      <label for="tabSecond">Second</label>
+      <div class="tab">
+        <h2>Second</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Optio, nobis culpa rem, vitae earum aliquid.</p>
+      </div>
+
+      <input type="radio" id="tabThird" name="container" />
+      <label for="tabThird">Third</label>
+      <div class="tab">
+        <h2>Third</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Optio, nobis culpa rem, vitae earum aliquid.</p>
+      </div>
+    </div>
+  </body>
+</html>
