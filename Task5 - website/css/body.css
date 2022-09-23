@@ -1,0 +1,40 @@
+.mainBody{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5cm;
+}
+.mainBody .rightDiv{
+    margin-top: 5cm;
+    margin-right: 2cm;
+}  
+.mainBody p{
+    font-size: 20px;
+}
+.mainBody h1{
+    font-size: 1.2cm;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+} 
+.mainBody img{
+    width: 683.65px;
+    height: 538.763px;
+    padding: 1.8cm;
+}
+.mainBody .btn3{
+    background-color: #43A0B2;
+    border-radius: 5px;
+    border:1px solid #43A0B2;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: "OrthoFX-Semibold", Sans-serif;
+    padding: 12px 20px;
+    cursor: pointer;  
+    margin: 1cm 0cm 0cm 0cm;
+}  
+.mainBody .btn3:hover{
+    transition: 0.7s;
+    background-color:#8ac3ce;
+    border-color: #8ac3ce;
+}
