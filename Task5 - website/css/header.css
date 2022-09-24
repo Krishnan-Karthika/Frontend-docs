@@ -8,8 +8,8 @@
     font-size: 14px;
     font-weight: bolder;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 12px 20px;
-    margin: 20px 20px 20px 20px;
+    padding: 11px 28px;
+    margin: 5px 10px 0px 0px;
     cursor: pointer;
 }
 .btn2{
@@ -21,7 +21,7 @@
     font-weight: bolder;
     font-family: 'Source Sans Pro', sans-serif;
     cursor: pointer;
-    padding: 12px 20px;
+    padding: 11px 28px;
 }
 .btn1:hover{
     transition: 0.7s;
@@ -36,7 +36,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 0.3cm 2cm 0cm 2cm;
+    padding: 0.2cm 2cm 0cm 2cm;
 }
 .headerLeft{
     display: flex;
@@ -47,10 +47,14 @@
 .header p{
     font-size: 18px;
     margin-top: .65cm;
+    font-family:  "OrthoFX-Regular";
+    /* font-size: 1.3rem; */
+    font-weight: 400;
+    /* line-height: 2em; */
+    color: #404040;
 }
 .header img{
     width: 190px;
     height: 52px;
-    cursor: pointer;
 }
 /* ------------------------------------------------------ */

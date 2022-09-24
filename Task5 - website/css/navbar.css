@@ -6,8 +6,9 @@ body {margin:0;font-family:Arial}
   overflow: hidden;
   background-color:whitesmoke;
   border-bottom: 1px solid rgb(227, 220, 207);
-  padding-left: 2cm;
-  padding-right: 2cm;
+  /* padding-left: 2cm;
+  padding-right: 2cm; */
+  padding: 5px 2cm 0px 2cm;
   margin-top: 0;
 }
 
@@ -19,6 +20,9 @@ body {margin:0;font-family:Arial}
   padding: 18px 18px;
   text-decoration: none;
   font-size: 17px;
+  font-family: "OrthoFX-Semibold", Sans-serif;
+  color: #404040;
+  font-weight: 600;
 }
 
 .dropdown {
@@ -32,6 +36,9 @@ body {margin:0;font-family:Arial}
   padding: 18px 18px;
   background-color: inherit;
   cursor: pointer;
+  font-family: "OrthoFX-Semibold", Sans-serif;
+  color: #404040;
+  font-weight: 600;
 }
 
 .dropdown-content {
@@ -45,9 +52,13 @@ body {margin:0;font-family:Arial}
 
 .dropdown-content a {
   float: none;
-  padding: 12px 16px;
+  padding: 13px 20px;
   display: block;
   text-align: left;
+  font-family: "OrthoFX-Semibold", Sans-serif;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .dropdown-content a:hover {

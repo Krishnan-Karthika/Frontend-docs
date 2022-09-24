@@ -4,16 +4,22 @@
     gap: 1.5cm;
 }
 .mainBody .rightDiv{
-    margin-top: 5cm;
+    margin-top: 4.5cm;
     margin-right: 2cm;
 }  
 .mainBody p{
     font-size: 20px;
+    font-family: "Orthofx-Regular";
+    font-weight: 100;
+    color: #404041;
 }
 .mainBody h1{
-    font-size: 1.2cm;
+    font-size: 1.3cm;
     font-weight:bolder;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    font-family: "OrthoFX-Bold";
+    color: #404041;
+
 } 
 .mainBody img{
     width: 683.65px;
@@ -29,7 +35,7 @@
     font-weight: bolder;
     /* font-family: 'Source Sans Pro', sans-serif; */
     font-family: "OrthoFX-Semibold", Sans-serif;
-    padding: 12px 20px;
+    padding: 11px 28px;
     cursor: pointer;  
     margin: 1cm 0cm 0cm 0cm;
 }  
