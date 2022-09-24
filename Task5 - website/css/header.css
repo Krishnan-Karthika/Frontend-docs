@@ -37,6 +37,9 @@
     display: flex;
     justify-content: space-between;
     padding: 0.2cm 2cm 0cm 2cm;
+    background-color: white;
+    position: fixed;
+    width: 90%;
 }
 .headerLeft{
     display: flex;
@@ -47,10 +50,8 @@
 .header p{
     font-size: 18px;
     margin-top: .65cm;
-    font-family:  "OrthoFX-Regular";
-    /* font-size: 1.3rem; */
+    font-family: "OrthoFX-Regular";
     font-weight: 400;
-    /* line-height: 2em; */
     color: #404040;
 }
 .header img{

@@ -4,7 +4,7 @@
     gap: 1.5cm;
 }
 .mainBody .rightDiv{
-    margin-top: 4.5cm;
+    margin-top: 8cm;
     margin-right: 2cm;
 }  
 .mainBody p{
@@ -25,6 +25,7 @@
     width: 683.65px;
     height: 538.763px;
     padding: 1.8cm;
+    padding-top: 5.3cm;
 }
 .mainBody .btn3{
     background-color: #43A0B2;

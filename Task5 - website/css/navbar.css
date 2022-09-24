@@ -6,8 +6,6 @@ body {margin:0;font-family:Arial}
   overflow: hidden;
   background-color:whitesmoke;
   border-bottom: 1px solid rgb(227, 220, 207);
-  /* padding-left: 2cm;
-  padding-right: 2cm; */
   padding: 5px 2cm 0px 2cm;
   margin-top: 0;
 }
@@ -68,4 +66,9 @@ body {margin:0;font-family:Arial}
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.topnav{
+  position: fixed;
+  width: 90%;
+  margin-top: 1.8cm;
 }
