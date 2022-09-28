@@ -1,0 +1,61 @@
+.findDoctor{
+    display: flex;
+    gap: 5cm;
+    padding: .3cm 1.9cm 2cm 2cm;
+}
+.findDoctor img{
+    width: 684px;    
+    height: 705px;   
+}
+.findDoctor .leftDiv{
+    margin-top: 2.5cm;
+    /* margin-left: 2cm; */
+}  
+/* .findDoctor .rightDiv{
+    margin-right: 2cm;
+} */
+.findDoctor h1{
+    font-size: 1.2cm;
+    font-weight:bolder;       /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    font-family: "OrthoFX-Bold";
+    color: #404041;
+} 
+.findDoctor p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: #404041;
+    line-height: 1.8;
+}
+.findDoctor .points{
+    display: flex;
+}
+.findDoctor .icon{
+    width: 1.5em;
+    height: 1.5em;
+}
+.findDoctor .exp{
+    margin-left: 0.8cm;
+    margin-top: 3px;
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: #404041;
+}
+.findDoctor .docBtn{
+    background-color: #EE6D57;
+    border-radius: 5px;
+    border:2px solid #EE6D57;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+    padding: 11px 28px;
+    margin-top: 0.5cm;
+}
+.findDoctor .docBtn:hover{
+    transition: 0.7s;
+    background-color:#e69582;
+    border-color: #e69582;
+}

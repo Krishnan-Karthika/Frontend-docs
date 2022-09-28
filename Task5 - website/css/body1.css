@@ -1,0 +1,47 @@
+.body1{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1.3cm;
+}
+.body1 .rightDiv{
+    margin-top: 8cm;
+    margin-right: 2cm;
+}  
+.body1 p{
+    font-size: 20px;
+    font-family: "Orthofx-Regular";
+    font-weight: 100;
+    color: #616163;
+}
+.body1 h1{
+    font-size: 1.3cm;
+    font-weight:bolder;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    font-family: "OrthoFX-Bold";
+    color: #404041;
+
+} 
+.body1 img{
+    width: 683.65px; /* 18.08cm */    
+    height: 560.763px;  /* 14.25 */    
+    padding: 2cm;
+    padding-top: 5cm;
+}
+.body1 .btn3{
+    background-color: #43A0B2;
+    border-radius: 5px;
+    border:1px solid #43A0B2;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: "OrthoFX-Semibold", Sans-serif;
+    padding: 11px 28px;
+    cursor: pointer;  
+    margin: 1cm 0cm 0cm 0cm;
+}  
+.body1 .btn3:hover{
+    transition: 0.7s;
+    background-color:#8ac3ce;
+    border-color: #8ac3ce;
+}

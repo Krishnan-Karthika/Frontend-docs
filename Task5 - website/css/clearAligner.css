@@ -1,0 +1,25 @@
+.clearAligner{
+    display: flex;
+    gap: 2.2cm;
+    padding: .3cm 0 0 .3cm;
+}
+.clearAligner img{
+    width: 740px;    
+    height: 567px;   
+}
+.clearAligner .rightDiv{
+    margin-top: 4cm;
+}  
+.clearAligner h1{
+    font-size: 1.2cm;
+    font-weight:bolder;       /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    font-family: "OrthoFX-Bold";
+    color: #404041;
+} 
+.clearAligner p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: #404042;
+    line-height: 1.8;
+}

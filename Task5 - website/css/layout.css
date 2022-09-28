@@ -1,0 +1,32 @@
+  .row{
+    box-sizing: border-box;
+    display: flex;
+    margin: -8px;
+  }
+  .row .columnLeft {
+    width: 22cm;
+    height: 19cm;
+    background-color: #74C2D1;
+    color: white;
+    margin: 0;
+    padding: 0.8cm 0 75.95px 75.95px;
+  }
+  .row .columnRight img{
+    width: 100%;
+    height: 100%;
+  }
+  .row .columnLeft h1{
+    font-size: 1.2cm;
+    font-weight:bolder;
+    font-family: "OrthoFX-Bold";
+    color: #ffffff;
+    line-height: 52px;
+} 
+.row .columnLeft p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:light;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 1cm;
+}

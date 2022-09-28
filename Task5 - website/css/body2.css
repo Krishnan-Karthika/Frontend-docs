@@ -1,0 +1,14 @@
+.body2{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 1cm 0 0.8cm 0;
+    align-items: center;
+}
+.img1{width: 60px;margin: 0 1.2cm 0 1.2cm;}
+.img2{width: 40px;margin: 0 1.2cm 0 1.2cm;}
+.img3{width: 81px;height: 50px;margin: 0 1.2cm 0 1.2cm;}
+.img4{width: 80px;height: 80px;margin: 0 1.2cm 0 1.2cm;}
+.img5{width: 70px;height: 70px;margin: 0 1.2cm 0 1.2cm;}
+.img6{width: 60px;height: 22px;margin: 0 1.2cm 0 1.2cm;}
+.img7{width: 50px;height: 21px;margin: 0 1.2cm 0 1.2cm;}

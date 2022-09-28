@@ -1,0 +1,236 @@
+.fxOnTrack{
+    display: flex;
+    box-sizing: border-box;
+}
+.fxOnTrack .leftDiv {
+    width: 22cm;
+    height: 12.5cm;
+    background-color: #f8f8f8;
+    color: white;
+    margin: 0;
+    padding: 0cm 2cm 75.95px 75.95px;
+  }
+.fxOnTrack img{
+    width: 100%;
+    height: 100%;
+}
+.fxOnTrack h1{
+    font-size: 1.2cm;
+    font-weight:bolder;     
+    font-family: "OrthoFX-Bold";
+    color: #404041;
+    margin-top: 4cm;
+} 
+.fxOnTrack p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: #404042;
+    line-height: 1.8;
+}
+
+/* ----------------aligner price - CSS------------------------------ */
+
+.price{
+    display: flex;
+    box-sizing: border-box;
+}
+.price .leftDiv {
+    width: 20cm;
+    height: 19cm;
+    background-color: #f48471;
+    color: white;
+    margin: 0;
+    padding: 0cm 2cm 0 75.95px;
+  }
+.price img{
+    width: 18cm;
+    height: 19cm;
+}
+.price h1{
+    font-size: 1.2cm;
+    font-weight:bolder;     
+    font-family: "OrthoFX-Bold";
+    color: white;
+    margin-top: 5cm;
+} 
+.price p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: white;
+    line-height: 1.8;
+}
+.priceBtn{
+    background-color: white;
+    border-radius: 5px;
+    border:2px solid #f48471;
+    color: #f48471;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 11px 28px;
+    margin: 1cm 10px 0px 0px;
+    cursor: pointer;
+}
+.priceBtn:hover{
+    transition: 0.7s;
+    background-color:#e7cdc7;
+    border-color: #e7cdc7;
+}
+
+
+/* -------- AM I A CANDIDATE-CSS ----------- */
+.candidate{
+    display: flex;
+    box-sizing: border-box;
+}
+.candidate .leftDiv {
+    width: 17cm;
+    height: 14cm;
+    background-color: #f48471;
+    color: white;
+    margin: 0;
+    padding: 0cm 2cm 0 75.95px;
+  }
+.candidate img{
+    width: 20cm;
+    height: 14cm;
+}
+.candidate h1{
+    font-size: 1.2cm;
+    font-weight:bolder;     
+    font-family: "OrthoFX-Bold";
+    color: white;
+    margin-top: 3cm;
+} 
+.candidate p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: white;
+    line-height: 1.6;
+}
+.candidateBtn{
+    background-color: white;
+    border-radius: 5px;
+    border:2px solid #f48471;
+    color: #f48471;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 13px 28px;
+    margin: 0.8cm 10px 0px 0px;
+    cursor: pointer;
+}
+.candidateBtn:hover{
+    transition: 0.7s;
+    background-color:#e7cdc7;
+    border-color: #e7cdc7;
+}
+
+/* ------------------------------- VIEW RESULT ------------------------------ */
+
+.viewResult {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 1.5cm 1.5cm 1.5cm;
+    margin: 0;
+    background-color: #ffffff;
+}
+.viewResult .leftDiv {
+    width: 16cm;
+    height: 13cm;
+    color: #404041;
+    margin: 0;
+  }
+.viewResult .leftDiv img{
+    width:46px;
+    height:35px; 
+    margin-top: 3.5cm;
+}
+.viewResult .rightDiv{
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 1cm;
+    margin: 0;
+}
+.viewResult .img1{
+    width: 271.825px;
+    height: 269.200px;
+}
+.viewResult .img2{
+    width: 271px;
+    height: 269px;
+}
+.viewResult h1{
+    font-size: 1.2cm;
+    font-weight:bolder;     
+    font-family: "OrthoFX-Bold";
+    color: #404041;
+} 
+.viewResult p{
+    font-size: 20px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:100;
+    color: #3f3f40;
+    line-height: 1.6;
+}
+.viewResultBtn{
+    background-color: white;
+    /* border-radius: 5px; */
+    border: none;
+    border-bottom:2px solid #f48471;
+    color: #f48471;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 8px;
+    margin: 0.8cm 10px 0px 0px;
+    cursor: pointer;
+}
+.viewResultBtn:hover{
+    transition: 0.7s;
+    background-color:#e7cdc7;
+    border-color: #e7cdc7;
+}
+
+/* --------------------------------------aligner work ------------------------------------------- */
+.alignerWork{
+    display: flex;
+    box-sizing: border-box;
+    margin: -4px;
+}
+.alignerWork .leftDiv {
+    width: 28cm;
+    height: 15cm;
+    background-color: #74C2D1;
+    color: white;
+    margin: 0;
+    padding: 0cm 2cm 0px 75.95px;
+  }
+.alignerWork .rightDiv{
+    background-color: #74C2D1;
+    padding-right: 2.5cm;
+}
+.alignerWork img{
+    width: 90%;
+    height: 90%;
+}
+.alignerWork h1{
+    font-size: 1.2cm;
+    font-weight:bolder;     
+    font-family: "OrthoFX-Bold";
+    color: white;
+    margin-top: 2.5cm;
+} 
+.alignerWork p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: white;
+    line-height: 1.8;
+}

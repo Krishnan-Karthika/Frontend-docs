@@ -1,0 +1,22 @@
+.correction{
+    padding: 0.6cm 2cm 2cm 2cm;
+}
+.correction h1{
+    font-size: 1.2cm;
+    font-weight:700;       /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    font-family: "OrthoFX-Bold";
+    color: #404041;
+    margin-bottom: 5px;
+} 
+.correction p{
+    font-size: 21px;
+    font-family: "Orthofx-Regular","Sans-serif";
+    font-weight:lighter;
+    color: #404042;
+    line-height: 1.6;
+}
+
+.correction img{
+    padding-right: 0.9cm;
+    padding-bottom: 0.3cm;
+}
