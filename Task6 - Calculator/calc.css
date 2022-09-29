@@ -1,0 +1,25 @@
+.calculator{
+    height: fit-content;
+    width: fit-content;
+    border: 1cm 0.5cm;
+    border-color: black;
+    border-radius: 8px;
+    background-color: #404040;
+    padding: 1.5cm 1cm;
+}
+.button{
+    height: 1.3cm;
+    width: 1.3cm;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px white solid;
+}
+.calculator input{
+    height: 2cm;
+    width: 6.3cm;
+    margin-bottom: 0.8cm;
+    border: 2px white solid;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8cm;
+}
