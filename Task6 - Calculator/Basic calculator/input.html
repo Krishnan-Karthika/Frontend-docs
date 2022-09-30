@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>form</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="row"><input type="text" id="num1" placeholder="Enter num1"></div>
+        <div class="row"><input type="text" id="num2" placeholder="Enter num2"></div>
+        <div class="row"><input type="text" id="result" placeholder="Result" readonly></div>
+        <div class="row">
+            <button type="submit" id="addBtn" onclick="addFunction()">+</button>
+            <button type="submit" id="subBtn" onclick="subFunction()">-</button>
+            <button type="submit" id="mulBtn" onclick="mulFunction()">*</button>
+            <button type="submit" id="divBtn" onclick="divFunction()">/</button>
+        </div>
+        <div class="extra">
+            <button type="reset" id="clearBtn" onclick="clearFunction()">CLEAR</button>
+        </div>
+    </div>
+        
+</body>
+<script src="input.js"> </script>
+</html>
