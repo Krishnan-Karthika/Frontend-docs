@@ -9,14 +9,15 @@
 }
 .button{
     height: 1.3cm;
-    width: 1.3cm;
+    width: 1.5cm;
     margin: 5px;
     border-radius: 5px;
     border: 2px white solid;
+    text-align: center;
 }
 .calculator input{
     height: 2cm;
-    width: 6.3cm;
+    width: 7cm;
     margin-bottom: 0.8cm;
     border: 2px white solid;
     border-radius: 5px;

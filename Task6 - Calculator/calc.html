@@ -10,7 +10,7 @@
 <body>
     <div class="calculator">
         <div class="row">
-            <input type="text" class="input" name="data" id="data">
+            <input type="text" class="input" name="input" id="input">
         </div>
         <div class="row">
             <button class="button">C</button>
@@ -40,8 +40,11 @@
             <button class="button">0</button>
             <button class="button">.</button>
             <button class="button">=</button>
+            <button class="button" onclick="history()">M</button>
         </div>
     </div>
+
+    <div id="dataHistory"></div>
     
 </body>
 
