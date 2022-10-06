@@ -10,7 +10,7 @@
 <body>
     <div class="calculator">
         <div class="row">
-            <input type="text" class="input" name="input" id="input">
+            <input type="text" class="input" name="input" id="input" required autofocus>
         </div>
         <div class="row">
             <button class="button">C</button>
@@ -39,9 +39,11 @@
         <div class="row">
             <button class="button">0</button>
             <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button" onclick="history()">M</button>
+            <button class="button" id="equal">=</button>
+            <button id="historyLS" class="button">M</button>
+            <!-- <button><div id="historyLS" class="extraButton">M</div></button> -->
         </div>
+        
     </div>
 
     <div id="dataHistory"></div>

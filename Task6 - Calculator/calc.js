@@ -1,3 +1,9 @@
+window.onload =function(){ //ensures the page is loaded before functions are executed.
+    document.getElementById("historyLS").onclick = historyLS
+}
+
+let key = 0;
+let calculationHistory = []
 let screen = document.getElementById('input');
 buttons = document.querySelectorAll('button');
 let screenValue = '';
@@ -21,58 +27,30 @@ for (item of buttons) {
             screen.value = screenValue;
         }
         else if (buttonText == '=') {
-            if(regex.test(screenValue)){
-
-            }else{
-                alert("invalid input-carefully enter using buttons in screen");
-            }
-
-
             let res = eval(screenValue);
             screen.value = screenValue+buttonText+res;
             str = JSON.stringify(screenValue+buttonText+res);
             console.log(str);
-
-            let key=localStorage.length;
-            // key = screenValue+buttonText;
-            // value = res;
-            localStorage.setItem(key+1, str);            
-                       
-            document.getElementById('dataHistory').innerHTML= str ;
+            calculationHistory.push(str);            
+            localStorage.setItem(key, calculationHistory);
+            
         }
         else {
             screenValue += buttonText;
             screen.value = screenValue;
         }
-
     })
 }
 
 
-function history(){
-    let 
-    // document.getElementById('jsondata').innerHTML=  ;
-    var values = [],
-            keys = Object.keys(localStorage),
-            i = keys.length;
 
-    // for (let key = localStorage.length-1; key >= 0; key--) {
-    //     let name = localStorage.getItem("key");
-    //     document.getElementById('dataHistory').innerHTML= name;
-    // }
-    
-        while ( i-- ) {
-            values.push( localStorage.getItem(keys[i]) );
-            document.getElementById('dataHistory').innerHTML= localStorage.getItem(keys[i]);
-        }
-    
-        // return values;
-        // let i=0;
-        // for (i in localStorage){
-        //     document.getElementById('dataHistory').innerHTML= values ;
-        // }
-        // document.getElementById('dataHistory').innerHTML= values ;
-    
+
+function historyLS(){
+    screen.value ="";
+    var records = window.localStorage.getItem(key);
+    var paragraph = document.createElement("p");
+    var infor = document.createTextNode(records);
+    paragraph.appendChild(infor);
+    var element = document.getElementById("dataHistory");
+    element.appendChild(paragraph);
 }
-
-
