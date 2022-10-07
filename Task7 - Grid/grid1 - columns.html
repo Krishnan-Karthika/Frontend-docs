@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLUMN</title>
+</head>
+<body>
+    <style>
+        .content{
+            display: grid;
+            /* grid-template-columns: repeat(3,1fr); */
+            /* grid-template-columns: 1fr 3fr 2fr; */
+            /* grid-template-columns: 10% 50% 40%; */
+            grid-template-columns: repeat(9,1fr);
+            background-color: bisque;
+            text-align: center;
+        }
+        .content div{
+            padding: 20px;
+        }
+        .content div:nth-child(even){
+            background-color: aquamarine;
+        }
+    </style>
+
+    <div class="content">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+</body>
+</html>
