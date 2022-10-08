@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROWS</title>
+</head>
+<body>
+    <style>
+        .content{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            /* grid-template-rows: 200px 300px 400px 200px; */
+            /* grid-auto-rows: 200px; */
+            /* grid-auto-rows: minmax(200px,auto); */
+            grid-template-rows: repeat(3,minmax(200px,auto));
+            gap : 20px;            
+            text-align: center;
+        }
+        .content div{
+            background-color: bisque;
+            padding: 20px;
+        }
+        .content div:nth-child(even){
+            background-color: aquamarine;
+        }
+    </style>
+    <div class="content">
+        <div>1</div>
+        <div>2</div>
+        <div>Regular expression rules
+            Rule	Meaning
+            ^	matches begining of the line
+            $	matches end of the line
+            *	matches the preceding character 0 or more times
+            +	matches the preceding character 1 or more times
+            ?	matches the preceding character 0 or 1 time
+            .	matches any single character except newtdne
+            (x)	matches x and remembers the matching expresssion
+            (?:x)	matches x and does not remember the matching expresssion
+            x(?=y)	matches x if it is followed by y
+            x(?!y)	matches x if it is not followed by y
+            {n}	matches previous character repeated n times
+            {n,m}	matches previous character repeated between n and m times
+            [abc]	matches any single character in the brackets
+            [^abc]	matches any single character not in the brackets
+            \b	matches word boundary
+            \B	matches non-word boundary
+            \d	matches a digit
+            \D	matches a non-digit
+            \s	matches a whitespace character
+            \S	matches a non-whitespace character
+            \t	matches a tab
+            \w	matches an alphanumeric character or underscore
+            \W	matches character that does not match \w
+            </div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>    
+</body>
+</html>
